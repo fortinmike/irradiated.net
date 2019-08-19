@@ -1,5 +1,6 @@
 ---
 layout: basic.hbs
+title: Home
 ---
 
-# Welcome to {{title}}!
+# Welcome to {{site}}!

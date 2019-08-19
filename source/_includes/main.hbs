@@ -1,15 +1,14 @@
 ---
-title: irradiated.net
+site: irradiated.net
 copyright: © Irradiated Apps
 ---
 
 <html>
   <head>
-    <title>{{ title }}</title>
+    <title>{{ site }}{{#if title}} - {{ title }}{{/if}}</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="main.css" />
   </head>
-
   <body>
     <header></header>
     <nav></nav>
