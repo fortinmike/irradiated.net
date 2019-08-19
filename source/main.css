@@ -4,4 +4,15 @@ body {
 
   /* Suggested here: https://github.com/necolas/normalize.css/issues/665 */
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header,
+main,
+footer {
+  width: 800px;
+  text-align: center;
 }
