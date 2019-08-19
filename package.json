@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "serve": "npx @11ty/eleventy --input=_input --output=_output --serve"
+    "serve": "npx @11ty/eleventy --input=source --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
