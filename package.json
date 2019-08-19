@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --input=_input --output=_output --serve"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
     "eslint": "^6.2.0"
