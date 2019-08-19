@@ -1,4 +1,7 @@
 body {
   background-color: #171717;
   color: white;
+
+  /* Suggested here: https://github.com/necolas/normalize.css/issues/665 */
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
