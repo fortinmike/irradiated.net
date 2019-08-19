@@ -11,9 +11,19 @@ copyright: © Irradiated Apps
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header></header>
-    <nav></nav>
-    <main>{{{ content }}}</main>
+    <header>
+      <h1>
+        irradiated.net
+      </h1>
+    </header>
+    <nav>
+      <ul>
+        {{#each collections.menu}}
+        <li>{{ this.data.title }}</li>
+        {{/each}}
+      </ul>
+    </nav>
+    {{{content}}}
     <footer>
       {{ copyright }}
     </footer>
