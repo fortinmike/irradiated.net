@@ -1,0 +1,30 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2015
+  },
+  "env": {
+    "node": true
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "semi": ["warn", "always"],
+    "block-spacing": ["warn", "always"],
+    "no-console": "error", // Using the console can cause total mayhem when it isn't available!
+    "no-unused-vars": ["warn", { "vars": "all", "args": "none" }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }], // Can cause confusion and was removed by some recent languages such as Swift
+    "no-multiple-empty-lines": ["warn", { "max": 1 }], // For cleanliness
+    "no-use-before-define": ["error", { "functions": true, "classes": true, "variables": true }],
+    "no-var": "error", // "var" escapes the scope it's defined in, which can cause duplicate definition issues
+    "no-empty": "warn",
+    "no-extra-boolean-cast": "off", // Allows double-negation to test for falsy things
+    "object-curly-spacing": ["warn", "always"],
+    "operator-assignment": ["warn", "always"],
+    "spaced-comment": ["warn", "always"],
+    "capitalized-comments": ["warn", "always", { "ignoreConsecutiveComments": true }],
+    "comma-spacing": "warn",
+    "eqeqeq": "error", // It's recommended to use === to avoid subtle errors
+    "quotes": ["warn", "double", { "allowTemplateLiterals": true }],
+    "prefer-const": "warn"
+  }
+}
