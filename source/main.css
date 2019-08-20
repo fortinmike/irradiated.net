@@ -16,8 +16,33 @@ body {
 header,
 main,
 footer {
-  width: 800px;
   text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+}
+
+header h1 {
+  margin: 0;
+  margin-left: 12px;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+nav a:hover {
+  color: white;
 }
 
 footer {

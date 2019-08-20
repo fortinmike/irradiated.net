@@ -12,16 +12,17 @@ copyright: © Irradiated Apps
   </head>
   <body>
     <header>
+      <img class="logo" src="images/logo.png" alt="Irradiated Apps" />
       <h1>
         irradiated.net
       </h1>
     </header>
     <nav>
-      <ul>
-        {{#each collections.menu}}
-        <li>{{ this.data.title }}</li>
-        {{/each}}
-      </ul>
+      {{#each collections.menu}}
+      <a href="{{ this.url }}">
+        {{ this.data.title }}
+      </a>
+      {{/each}}
     </nav>
     {{{content}}}
     <footer>
