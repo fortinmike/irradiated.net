@@ -7,7 +7,8 @@ layout: basic.hbs
   <div class="apps">
     {{#each collections.app}}
     <a class="app" href="{{ this.url }}">
-      {{ this.data.title }}
+      <img class="icon" src="{{ this.data.icon }}" />
+      <span class="title">{{ this.data.title }}</span>
     </a>
     {{/each}}
   </div>
