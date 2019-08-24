@@ -10,7 +10,8 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
-    "eslint": "^6.2.0"
+    "eslint": "^6.2.0",
+    "lodash": "^4.17.15"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"

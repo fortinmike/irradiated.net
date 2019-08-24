@@ -1,6 +1,11 @@
+const { orderByExplicitOrder } = require("./utils/collection-utils");
+
 module.exports = function(config) {
-  // Copy file as-is to the output directory
   config.addPassthroughCopy("source/images");
+
+  config.addCollection("menu", collection => {
+    return orderByExplicitOrder(collection);
+  });
 
   return {
     templateFormats: ["html", "md", "css"]
