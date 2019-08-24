@@ -1,3 +1,7 @@
+:root {
+  --yellow-color: rgb(255, 209, 22);
+}
+
 body {
   background-color: #171717;
   color: white;
@@ -43,7 +47,7 @@ nav a {
 }
 
 nav a:hover {
-  color: white;
+  color: var(--yellow-color);
 }
 
 footer {
