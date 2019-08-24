@@ -17,6 +17,16 @@ body {
   align-items: center;
 }
 
+a {
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+a:hover {
+  color: var(--yellow-color);
+}
+
 header,
 main,
 footer {
@@ -41,17 +51,24 @@ nav {
 }
 
 nav a {
-  color: rgb(200, 200, 200);
-  text-decoration: none;
   margin: 0 20px;
-}
-
-nav a:hover {
-  color: var(--yellow-color);
 }
 
 footer {
   margin-top: 40px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.7em;
+}
+
+/* Apps Page */
+
+section.apps {
+  display: flex;
+  flex-direction: column;
+}
+
+div.apps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

@@ -4,7 +4,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("source/images");
 
   config.addCollection("menu", collection => {
-    return orderByExplicitOrder(collection);
+    return orderByExplicitOrder(collection.getFilteredByTag("menu"));
   });
 
   return {

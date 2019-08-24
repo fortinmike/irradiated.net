@@ -1,0 +1,12 @@
+---
+layout: basic.hbs
+---
+
+<section class="apps">
+  <h2>The Apps</h2>
+  {{#each collections.app}}
+  <a class="app" href="{{ this.url }}">
+    {{ this.data.title }}
+  </a>
+  {{/each}}
+</section>
