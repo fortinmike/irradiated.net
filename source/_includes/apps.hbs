@@ -6,11 +6,14 @@ layout: basic.hbs
   <h2>The Apps</h2>
   <div class="apps">
     {{#each collections.app}}
-    <a class="app" href="{{ this.url }}">
-      <img class="icon" src="{{ this.data.icon }}" />
-      <span class="title">{{ this.data.title }}</span>
+    <div class="app">
+      <a class="app" href="{{ this.url }}">
+        <img class="icon" src="{{ this.data.icon }}" />
+        <span class="title">{{ this.data.title }}</span>
+      </a>
+      <a class="get" href="{{ this.data.download }}">GET</a>
       <span class="description">{{ this.data.description }}</span>
-    </a>
+    </div>
     {{/each}}
   </div>
 </section>
