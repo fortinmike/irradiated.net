@@ -11,7 +11,7 @@ layout: basic.hbs
         <img class="icon" src="{{ this.data.icon }}" />
         <span class="title">{{ this.data.title }}</span>
       </a>
-      <a class="get" href="{{ this.data.download }}">GET</a>
+      <a class="get" href="{{ this.data.download }}" {{#if this.data.downloadTarget}}target={{this.data.downloadTarget}}{{/if}}>GET</a>
       <span class="description">{{ this.data.description }}</span>
     </div>
     {{/each}}
