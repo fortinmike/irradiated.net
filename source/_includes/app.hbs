@@ -4,7 +4,9 @@ layout: basic.hbs
 
 <section class="app">
   <h2>{{ title }}</h2>
-  <p>{{ description }}</p>
+  {{#each description}}
+  <p>{{ this }}</p>
+  {{/each}}
   <div class="screenshots">
     {{#each screenshots}}
     <a href="{{ this.full }}"><img class="thumb" src="{{ this.thumb }}"/></a>
