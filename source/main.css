@@ -8,7 +8,7 @@
 
 body {
   background-color: var(--body-background-color);
-  color: white;
+  color: rgb(240, 240, 240);
 
   /* Suggested here: https://github.com/necolas/normalize.css/issues/665 */
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -96,6 +96,11 @@ a {
 a:hover {
   color: var(--accent-color);
   text-shadow: 0 0 10px rgba(255, 209, 22, 0.6);
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.6em;
 }
 
 /* Apps Page */
