@@ -101,6 +101,7 @@ a:hover {
 p {
   font-size: 0.9em;
   line-height: 1.6em;
+  margin: 20px 0;
 }
 
 /* Apps Page */
@@ -165,6 +166,21 @@ div.app span.description {
   font-size: 0.7em;
   line-height: 1.4em;
   color: #5a5a5a;
+}
+
+/* App Page */
+
+section.app div.screenshots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+section.app div.screenshots img.thumb {
+  width: 130px;
+  height: 130px;
+  margin: 0 10px;
 }
 
 /* Support Page */

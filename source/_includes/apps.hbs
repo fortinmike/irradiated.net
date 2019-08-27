@@ -12,7 +12,7 @@ layout: basic.hbs
         <span class="title">{{ this.data.title }}</span>
       </a>
       <a class="get" href="{{ this.data.download }}" {{#if this.data.downloadTarget}}target={{this.data.downloadTarget}}{{/if}}>GET</a>
-      <span class="description">{{ this.data.description }}</span>
+      <span class="description">{{ this.data.summary }}</span>
     </div>
     {{/each}}
   </div>
