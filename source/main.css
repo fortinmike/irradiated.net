@@ -213,3 +213,9 @@ section.support span.email {
   margin: 0 6px;
   color: var(--body-background-color);
 }
+
+/* Info Page */
+
+section.info div.images {
+  margin-top: 40px;
+}
