@@ -1,4 +1,4 @@
-# irradiated.net-static
+# irradiated.net
 
 This is the new, static version of `irradiated.net`.
 
