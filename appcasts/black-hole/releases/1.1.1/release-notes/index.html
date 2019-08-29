@@ -1,0 +1,78 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>What's new in Black Hole?</title>
+		<meta name="robots" content="anchors">
+		<link href="../release-notes.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+			<table class="dots">
+				<tr>
+					<td class="blue">
+						<h3>Version 1.1.1</h3>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2>Updated</h2>
+						<ul class="features">
+							<li>Additional logging in the Files and Folders cleaner.</li>
+						</ul>
+						<h2>Bug Fixes</h2>
+						<ul class="features">
+							<li>Fixed a bug where some Files and Folders rules would not be run.</li>
+							<li>Fixed a bug where Black Hole would open Safari when starting up.</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			
+			<table class="dots">
+				<tr>
+					<td class="blue" colspan="2">
+						<h3>Version 1.1</h3>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2>New Features</h2>
+						<ul class="features">
+							<li>A much <b>easier way to add Recent Items rules</b>. Try it!</li>
+							<li>Added a <b>dialog to choose a file or folder</b> when creating a rule for the Files and Folders cleaner, so now you don't have to type the path manually.</li>
+							<li>The Files and Folders as well as the Trash cleaners can now <b>securely delete files</b> (35-pass Gutmann, 7-pass US DoD compliant, or a quick one-pass overwrite with random data).</li>
+							<li>Added <b>progress indicators</b> to all cleaners so you know Black Hole is working when a cleaner takes a lot of time to run.</li>
+							<li>Added an option to <b>enable or disable anonymous system profiling</b> in the preferences. <i>Note: Enabling anonymous system profiling helps me a lot!</i></li>
+							<li><b>New Recent Items rules</b> for <i>Espresso</i>, <i>BBEdit</i>, <i>Omnigraffle Pro</i>, <i>Soundtrack Pro</i>, <i>Scribbles</i>, <i>ScreenFlow</i>, <i>WireTap Studio</i>, <i>Max</i>, <i>Logic Pro</i>, <i>GarageBand</i>, <i>Sequel Pro</i>, <i>Interface Builder</i> and <i>Xcode</i>.</li>
+							<li><b>New Files and Folders rules</b> for <i>Safari 4+ Webpage Previews</i>, <i>Safari History</i>, <i>Safari Top Sites</i>, <i>Safari Webpage Icons</i>, <i>Safari Last Session</i> and <i>Safari Downloads History</i>.</li>
+							<li>Added <b>buttons to submit a rule in one step</b> so it can be considered for inclusion in a future version of the app. Rule submission is completely anonymous.</li>
+							<li>A preference has been added to <b>automatically show the Results window</b> when cleaning begins, when it is done, when there is an error, or never.</li>
+						</ul>
+						<h2 class="features">Updated</h2>
+						<ul class="features">
+							<li>The Files and Folders cleaner code has been refactored for a much more efficient and reliable cleanup.</li>
+							<li>The Trash cleaner code has been refactored for a much more efficient and reliable cleanup.</li>
+							<li>The Results window now displays the time at which the cleaning finished.</li>
+							<li>The Results window now scrolls down automatically when messages are added.</li>
+							<li>The Volumes cleaner is now much more reliable, especially in cases where opened disk image files are stored on a device that will be unmounted at the same time as the disk image itself.</li>
+							<li>All panels now remember their size, column order and width so you can customize how you want Black Hole to look and have it remember your layout.</li>
+						</ul>
+						<h2>Bug Fixes</h2>
+						<ul class="features">
+							<li>The Files and Folders cleaner does not freeze the UI anymore when deleting large amounts of files.</li>
+							<li>Fixed a bug where the Files and Folders cleaner could get stuck if checked but no rules were active.</li>
+							<li>Fixed a bug where after unmounting a password-protected volume, mounting it back again would not prompt for the disk image password (due to the method previously used to unmount the disk image).</li>
+							<li>Fixed a bug in the Volumes cleaner where volumes could incorrectly be detected as still mounted, making the cleaner report a failure.</li>
+							<li>Other small fixes and additions.</li>
+						</ul>
+						<h2>Technical Jibba-Jabba</h2>
+						<ul class="features">
+							<li>Black Hole is now using Grand Central Dispatch to parallelize and make operations asynchronous where appropriate.</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+	</body>
+
+</html>

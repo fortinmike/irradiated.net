@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Sleepytime Update Appcast</title>
+      <link>http://www.irradiated.net/appcasts/sleepytime/appcast.xml</link>
+      <description>A list of updates to Sleepytime. Your application will automatically prompt you and download updates from this site. You don't need to download new versions here manually.</description>
+      <language>en</language>
+      
+      <item>
+          <title>Version 1.2</title>
+          <sparkle:releaseNotesLink>
+              http://www.irradiated.net/appcasts/sleepytime/releases/1.2/release-notes.html
+          </sparkle:releaseNotesLink>
+          <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
+          <enclosure url="http://www.irradiated.net/appcasts/sleepytime/releases/1.2/Sleepytime.zip"
+                     sparkle:version="1.2"
+                     sparkle:dsaSignature="MCwCFE5ageqfaqEwLQAxu/dQDgMDDBVBAhQ3JoqgjwlGa2F8w424PMHEKvnLXg=="
+                     length="2193964"
+                     type="application/octet-stream" />
+      </item>
+      
+      <item>
+          <title>Version 1.1.2</title>
+          <sparkle:releaseNotesLink>
+              http://www.irradiated.net/appcasts/sleepytime/releases/1.1.2/release-notes.html
+          </sparkle:releaseNotesLink>
+          <enclosure url="http://www.irradiated.net/appcasts/sleepytime/releases/1.1.2/Sleepytime.dmg"
+                     sparkle:version="1.1.2"
+                     sparkle:dsaSignature="MCwCFH7dnBsMin0/WXFagh02zIIiUNSgAhQWO/qQZlk0XUgJP0bZEANhJ6xOoA=="
+                     length="4197374"
+                     type="application/octet-stream" />
+      </item>
+      
+      <item>
+          <title>Version 1.1.1</title>
+          <sparkle:releaseNotesLink>
+              http://www.irradiated.net/appcasts/sleepytime/releases/1.1.1/release-notes.html
+          </sparkle:releaseNotesLink>
+          <enclosure url="http://www.irradiated.net/appcasts/sleepytime/releases/1.1.1/Sleepytime.dmg"
+                     sparkle:version="1.1.1"
+                     sparkle:dsaSignature="MC0CFDyoPRekk0+B+BAiZFmNN63xOeXuAhUAnRXTzdqHjVTfAfHtgQG3Mf3ZYj0="
+                     length="4194131"
+                     type="application/octet-stream" />
+      </item>
+      
+      <item>
+          <title>Version 1.1</title>
+          <sparkle:releaseNotesLink>
+              http://www.irradiated.net/appcasts/sleepytime/releases/1.1/release-notes.html
+          </sparkle:releaseNotesLink>
+          <enclosure url="http://www.irradiated.net/appcasts/sleepytime/releases/1.1/Sleepytime.dmg"
+                     sparkle:version="1.1"
+                     sparkle:dsaSignature="MC0CFQCEzS2h1v09bs65JGul7t4QN0PykAIUYBWdbrKMWu7t5nG+i7N0ViquhwA="
+                     length="4194448"
+                     type="application/octet-stream" />
+      </item>
+      
+      <item>
+          <title>Version 1.0.1</title>
+          <sparkle:releaseNotesLink>
+              http://www.irradiated.net/appcasts/sleepytime/releases/1.0.1/release-notes.html
+          </sparkle:releaseNotesLink>
+          <enclosure url="http://www.irradiated.net/appcasts/sleepytime/releases/1.0.1/Sleepytime.dmg"
+                     sparkle:version="1.0.1"
+                     sparkle:dsaSignature="MC0CFQCvhV0SzgAbwKJ7PujIH6ENDqvTegIUOHj/AEW5rg12oagl0zGNcOTDyJ0="
+                     length="2613891"
+                     type="application/octet-stream" />
+      </item>
+      
+      <item>
+          <title>Version 1.0</title>
+          <sparkle:releaseNotesLink>
+              http://www.irradiated.net/appcasts/sleepytime/releases/1.0/release-notes.html
+          </sparkle:releaseNotesLink>
+          <enclosure url="http://www.irradiated.net/appcasts/sleepytime/releases/1.0/Sleepytime.dmg"
+                     sparkle:version="1.0"
+                     sparkle:dsaSignature="MC0CFBqJhh8UFBcOrf++Xg37ydSCM+LCAhUApvhVjHpSOoOfHSo1XECFnoEUA/s="
+                     length="1623481"
+                     type="application/octet-stream" />
+      </item>
+      
+   </channel>
+</rss>
