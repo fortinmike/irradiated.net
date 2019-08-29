@@ -1,0 +1,52 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>What's new in Black Hole?</title>
+		<meta name="robots" content="anchors">
+		<link href="../release-notes.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+			<table class="dots">
+				<tr>
+					<td class="blue">
+						<h3>Version 1.2</h3>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2>New Features</h2>
+						<ul class="features">
+							<li>A new Logs Cleaner with Quick Look preview of log files!</li>
+							<li>Quick Cleanup : Drag a file or folder on the Black Hole icon and see what happens!</li>
+							<li>New, slicker main window graphics and a shiny new icon.</li>
+							<li>Growl notifications support.</li>
+							<li>All cleaners that delete files now use secure deletion if activated (previously the Recent Items Cleaner didn't).</li>
+							<li>The Black Hole Dock icon can now bounce when cleaning is done.</li>
+							<li>Better keyboard navigation : Added key equivalents in the main window : press A to open the Applications panel, C to open the Clipboard panel, etc. Also added Cmd-N and Cmd-O shortcuts to create new rules and browse for files in the appropriate cleaner panels.</li>
+							<li>Added a menu item to start cleanup from the application's Dock menu; you don't have to bring up Black Hole's main window to start a cleanup anymore.</li>
+							<li>Black Hole can now quit automatically after cleanup is done.</li>
+							<li>New Recent Items rules for Movist, MPlayer OSX Extended.</li>
+							<li>New Files and Folders rules for Safari Form Values and Safari Cookies.</li>
+						</ul>
+						<h2>Updated</h2>
+						<ul class="features">
+							<li>You cannot submit a default rule anymore. A lot of you tried the button with a default rule for fun it seems! ;)</li>
+						</ul>
+						<h2>Bug Fixes</h2>
+						<ul class="features">
+							<li>Fixed a bug where rm and srm (file deletion) would keep running if Black Hole was quit while cleaning.</li>
+						</ul>
+						<h2>Technical Jibba-Jabba</h2>
+						<ul class="features">
+							<li>Regression unit tests have been created for the Files and Folders, Trash, Recent Items and Applications cleaners to assert normal behaviour for version 1.2 and future releases. That means there is almost no chance of major bugs slipping into a release.</li>
+							<li>A good bunch of acceptation and regression test cases were written to make sure everything works as expected in new releases.</li>
+							<li>Centralized most of the code for deleting files, resulting in fewer bugs and discrepancies, less code to maintain, and more time to work on new features!</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+	</body>
+
+</html>
