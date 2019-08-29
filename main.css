@@ -1,0 +1,221 @@
+/* Core */
+
+:root {
+  --body-background-color: #171717;
+  --link-color: rgb(170, 170, 170);
+  --accent-color: rgb(255, 209, 22);
+  --darker-text-color: rgb(200, 200, 200);
+}
+
+body {
+  background-color: var(--body-background-color);
+  color: rgb(240, 240, 240);
+
+  /* Suggested here: https://github.com/necolas/normalize.css/issues/665 */
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Suggested here: https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html */
+  font-size: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 40px;
+}
+
+header,
+main,
+footer {
+  text-align: center;
+  max-width: 700px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header img.logo {
+  width: 40px;
+  height: 40px;
+  content: url("/images/logo-normal@2x.png");
+}
+
+header h1 {
+  margin: 0;
+  margin-left: 12px;
+}
+
+header a {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+header a:hover img.logo {
+  content: url("/images/logo-hover@2x.png");
+}
+
+nav {
+  margin: 20px 0;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+nav a {
+  margin: 0 10px;
+
+  display: block;
+  background-color: #222222;
+  padding: 6px;
+  min-width: 70px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #2c2c2c;
+}
+
+footer {
+  margin-top: 40px;
+  color: rgb(56, 56, 56);
+  font-size: 0.7em;
+}
+
+/* Common */
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-shadow: 0 0 10px rgba(255, 209, 22, 0.6);
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.6em;
+  margin: 20px 0;
+}
+
+/* Apps Page */
+
+section.apps {
+  display: flex;
+  flex-direction: column;
+}
+
+div.apps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.app {
+  margin: 20px;
+  min-width: 140px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.app,
+a.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.app img.icon {
+  width: 128px;
+  height: 128px;
+}
+
+div.app span.title {
+  margin-top: 10px;
+}
+
+div.app a.get {
+  background-color: var(--link-color);
+  color: var(--body-background-color);
+  border-radius: 6px;
+  padding: 4px;
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+div.app a.get:hover {
+  background-color: var(--accent-color);
+}
+
+div.app a.get:hover {
+  text-shadow: none;
+}
+
+div.app span.description {
+  margin-top: 20px;
+  max-width: 150px;
+  font-size: 0.7em;
+  line-height: 1.4em;
+  color: #5a5a5a;
+}
+
+/* App Page */
+
+section.app div.screenshots {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+section.app div.screenshots img.thumb {
+  width: 130px;
+  height: 130px;
+  margin: 10px;
+}
+
+section.app div.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.app div.feature h4 {
+  font-style: italic;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+section.app div.feature p {
+  color: var(--darker-text-color);
+  font-size: 0.8em;
+  max-width: 400px;
+  margin: 10px;
+}
+
+/* Support Page */
+
+section.support span.email {
+  background-color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin: 0 6px;
+  color: var(--body-background-color);
+}
+
+/* Info Page */
+
+section.info div.images {
+  margin-top: 40px;
+}
