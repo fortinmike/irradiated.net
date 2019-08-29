@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "serve": "rm -rf _site && npx @11ty/eleventy --input=source --serve"
+    "serve": "rm -rf _site && npx @11ty/eleventy --input=source --output=../gh-pages --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
