@@ -2,6 +2,7 @@
 
 :root {
   --body-background-color: #171717;
+  --body-color: rgb(240, 240, 240);
   --link-color: rgb(170, 170, 170);
   --accent-color: rgb(255, 209, 22);
   --darker-text-color: rgb(200, 200, 200);
@@ -9,7 +10,7 @@
 
 body {
   background-color: var(--body-background-color);
-  color: rgb(240, 240, 240);
+  color: var(--body-color);
 
   /* Suggested here: https://github.com/necolas/normalize.css/issues/665 */
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -91,8 +92,8 @@ footer {
 /* Common */
 
 a {
-  color: var(--link-color);
   text-decoration: none;
+  color: var(--link-color);
 }
 
 a:hover {
@@ -104,6 +105,27 @@ p {
   font-size: 0.9em;
   line-height: 1.6em;
   margin: 20px 0;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+a.button {
+  background-color: var(--link-color);
+  color: var(--body-background-color);
+  border-radius: 6px;
+  padding: 4px;
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+a.button:hover {
+  background-color: var(--accent-color);
+}
+
+a.button:hover {
+  text-shadow: none;
 }
 
 /* Apps Page */
@@ -145,23 +167,6 @@ div.app span.title {
   margin-top: 10px;
 }
 
-div.app a.get {
-  background-color: var(--link-color);
-  color: var(--body-background-color);
-  border-radius: 6px;
-  padding: 4px;
-  margin-top: 10px;
-  font-size: 0.8em;
-}
-
-div.app a.get:hover {
-  background-color: var(--accent-color);
-}
-
-div.app a.get:hover {
-  text-shadow: none;
-}
-
 div.app span.description {
   margin-top: 20px;
   max-width: 150px;
@@ -171,6 +176,10 @@ div.app span.description {
 }
 
 /* App Page */
+
+section.app div.links > a {
+  margin: 0 6px;
+}
 
 section.app div.screenshots {
   display: flex;

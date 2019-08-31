@@ -4,6 +4,10 @@ layout: basic.hbs
 
 <section class="app">
   <h2>{{ title }}</h2>
+  <div class="links">
+    <a class="button" href="{{ download }}"  {{#if downloadTarget}}target={{downloadTarget}}{{/if}}>Download</a>
+    <!-- <a class="button" href="/help/{{ name }}">Help</a> -->
+  </div>
   {{#each description}}
   <p>{{ this }}</p>
   {{/each}}
