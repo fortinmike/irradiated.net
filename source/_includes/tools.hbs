@@ -1,0 +1,19 @@
+---
+layout: basic.hbs
+---
+
+<section class="apps">
+  <h2>The Tools</h2>
+  <div class="apps">
+    {{#each collections.tool}}
+    <div class="app">
+      <a class="app" href="{{ this.url }}">
+        <img class="icon" src="{{ this.data.icon }}" />
+        <span class="title">{{ this.data.title }}</span>
+      </a>
+      <a class="button" href="{{ this.data.download }}" {{#if this.data.downloadTarget}}target={{this.data.downloadTarget}}{{/if}}>GET</a>
+      <span class="description">{{ this.data.summary }}</span>
+    </div>
+    {{/each}}
+  </div>
+</section>
