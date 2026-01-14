@@ -6,14 +6,20 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "serve": "rm -rf _site && npx @11ty/eleventy --input=source --output=../gh-pages --serve"
+    "build": "pnpm dlx @11ty/eleventy --input=source --output=../gh-pages",
+    "serve": "pnpm dlx @11ty/eleventy --input=source --output=../gh-pages --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "3.1.2",
+    "@11ty/eleventy-plugin-handlebars": "1.0.0",
     "eslint": "^6.2.0",
     "lodash": "^4.17.21"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
-  }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.28.0+sha512.05df71d1421f21399e053fde567cea34d446fa02c76571441bfc1c7956e98e363088982d940465fd34480d4d90a0668bc12362f8aa88000a64e83d0b0e47be48"
 }
