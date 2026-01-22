@@ -14,7 +14,7 @@
     "@11ty/eleventy-plugin-handlebars": "1.0.0",
     "@eslint/js": "9.39.2",
     "eslint": "9.39.2",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.23"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
