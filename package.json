@@ -5,22 +5,22 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "packageManager": "pnpm@10.32.1",
   "scripts": {
     "build": "pnpm dlx @11ty/eleventy --input=source --output=../gh-pages",
     "serve": "pnpm dlx @11ty/eleventy --input=source --output=../gh-pages --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "3.1.2",
+    "@11ty/eleventy": "3.1.5",
     "@11ty/eleventy-plugin-handlebars": "1.0.0",
-    "@eslint/js": "9.39.2",
-    "eslint": "9.39.2",
-    "lodash": "^4.17.21"
+    "@eslint/js": "9.39.4",
+    "eslint": "9.39.4",
+    "lodash": "^4.17.23"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
   },
   "engines": {
     "node": ">=18"
-  },
-  "packageManager": "pnpm@10.28.0"
+  }
 }
